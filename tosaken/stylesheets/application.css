@@ -2263,7 +2263,7 @@ html, body {
     display: table;
     clear: both; }
 /* line 43, /Users/nozomi/Desktop/mysite/source/stylesheets/_tosaken.scss */
-.tosaken .menu__item {
+.tosaken .menu__item, .tosaken .menu__item--end {
   position: relative;
   display: inline-block;
   float: left;
@@ -2277,7 +2277,7 @@ html, body {
   vertical-align: bottom;
   text-decoration: none; }
   /* line 57, /Users/nozomi/Desktop/mysite/source/stylesheets/_tosaken.scss */
-  .tosaken .menu__item:hover:before {
+  .tosaken .menu__item:hover:before, .tosaken .menu__item--end:hover:before {
     position: absolute;
     top: 0;
     left: 50%;
@@ -2288,6 +2288,9 @@ html, body {
     border-radius: 5px;
     background-color: #555; }
 /* line 71, /Users/nozomi/Desktop/mysite/source/stylesheets/_tosaken.scss */
+.tosaken .menu__item--end {
+  margin-right: 0; }
+/* line 76, /Users/nozomi/Desktop/mysite/source/stylesheets/_tosaken.scss */
 .tosaken .section__inner {
   *zoom: 1;
   min-height: 230px;
@@ -2297,23 +2300,23 @@ html, body {
     content: "";
     display: table;
     clear: both; }
-/* line 78, /Users/nozomi/Desktop/mysite/source/stylesheets/_tosaken.scss */
+/* line 83, /Users/nozomi/Desktop/mysite/source/stylesheets/_tosaken.scss */
 .tosaken .section__label {
   display: table-cell;
   width: 80px;
   font-size: 24px;
   vertical-align: middle; }
-/* line 85, /Users/nozomi/Desktop/mysite/source/stylesheets/_tosaken.scss */
+/* line 90, /Users/nozomi/Desktop/mysite/source/stylesheets/_tosaken.scss */
 .tosaken .section__content {
   display: table-cell;
   font-size: 15px;
   line-height: 2em;
   letter-spacing: 0.1em;
   vertical-align: middle; }
-  /* line 91, /Users/nozomi/Desktop/mysite/source/stylesheets/_tosaken.scss */
+  /* line 96, /Users/nozomi/Desktop/mysite/source/stylesheets/_tosaken.scss */
   .tosaken .section__content a {
     color: #4d4d4d;
     text-decoration: none; }
-    /* line 94, /Users/nozomi/Desktop/mysite/source/stylesheets/_tosaken.scss */
+    /* line 99, /Users/nozomi/Desktop/mysite/source/stylesheets/_tosaken.scss */
     .tosaken .section__content a:hover {
       color: #8d8d8d; }
